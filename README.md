@@ -3,16 +3,15 @@
 _A Slackbot that uses the xapix api_.
 
 
-This Slackbot that receives input through a [slash command](https://api.slack.com/slash-commands) and sends a request to a xapix API.
+Clone this starter project to walk through the [tutorial](TBD) on creating a slack slash command with Xapix. End project is a Slackbot that receives input through a [slash command](https://api.slack.com/slash-commands) and sends a request to a xapix API. Access the [finished project here](https://github.com/llomelchenko/xapix-slackbot).
 
-This project is initally based on a great demo project from Medium: [https://goo.gl/wDyayI](https://goo.gl/wDsyayI)
 
 ## Installation
 
 Clone the repo and then install dependencies:
 
-    git clone https://github.com/llomelchenko/xapix-slackbot.git
-    cd xapix-slackbot
+    git clone https://github.com/llomelchenko/xapix-slackbot-starter.git
+    cd xapix-slackbot-starter
     yarn install
 
 
@@ -42,9 +41,9 @@ Setup Slack slash command:
 
 ## Usage
 
-In Slack, send slash commands to /xapix-bot:
+In Slack, send slash commands to /xapix-airport-info:
 
-    /xapix-bot JFK
+    /xapix-airport-info JFK
 
 
 ## License
